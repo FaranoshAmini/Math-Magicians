@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
-import Calculator from './components/Calculator';
+// eslint-disable-next-line import/extensions
+import Calculator from './components/Calculator.js';
 
 export default class App extends React.PureComponent {
   render() {
