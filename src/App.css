@@ -1,0 +1,53 @@
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 30vw;
+  box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
+}
+
+.calc-btn {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 1px;
+}
+
+input {
+  height: 7vh;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
+
+input::placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+input:hover {
+  filter: brightness(90%);
+}
+
+.zero {
+  grid-column: 1 / span 2;
+}
+
+.number {
+  text-align: right;
+  background-color: #858694;
+  color: #fff;
+  font-size: large;
+}
+
+.sign {
+  background-color: #f5913e;
+}
