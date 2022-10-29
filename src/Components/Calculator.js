@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 // eslint-disable-next-line import/extensions
 import calculate from '../logic/calculate.js';
 
