@@ -1,6 +1,4 @@
-// eslint-disable-next-line max-len
-// eslint-disable-next-line import/extensions, import/no-named-as-default, import/no-named-as-default-member
-import operate from './operate.js';
+import operate from './operate';
 
 function isNumber(item) {
   return !!item.match(/[0-9]+/);
