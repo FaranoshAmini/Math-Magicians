@@ -185,7 +185,11 @@ h2 {
 }
 
 .calcWrapper {
-  width: 1200px;
+  width: 1300px;
   display: flex;
   justify-content: space-between;
+}
+
+h1 {
+  font-size: 5.5vh;
 }
