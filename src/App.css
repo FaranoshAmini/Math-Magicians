@@ -101,6 +101,7 @@ form {
   flex-direction: column;
   height: auto;
   width: 35vw;
+  text-align: right;
   border-radius: 25px;
   background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
   box-shadow: rgba(0, 0, 0, 0.19) 0 10px 20px, rgba(0, 0, 0, 0.23) 0 6px 6px;
@@ -181,4 +182,10 @@ h2 {
   font-weight: 800;
   margin-bottom: 8vh;
   border-radius: 24px;
+}
+
+.calcWrapper {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
 }
