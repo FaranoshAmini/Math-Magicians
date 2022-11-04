@@ -87,7 +87,6 @@ hr {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
 
 .section .quote {
@@ -162,14 +161,15 @@ main {
   height: auto;
   width: 80vw;
   border-radius: 25px;
-  text-align: center;
+  text-align: left;
   font-size: x-large;
   line-height: 38px;
 }
 
 h2 {
   color: black;
-  align-self: center;
+  /* stylelint-disable-next-line csstree/validator */
+  align-self: left;
   width: 40vw;
   height: 7vh;
   display: flex;

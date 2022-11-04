@@ -24,7 +24,7 @@ export default class App extends React.PureComponent {
           <section className="section">
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="Calculator" element={<Calculator />} />
+              <Route className="layout" path="Calculator" element={<Calculator />} />
               <Route path="Quote" element={<Quote />} />
             </Routes>
           </section>
