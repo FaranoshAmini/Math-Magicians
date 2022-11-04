@@ -14,11 +14,11 @@ export default class App extends React.PureComponent {
           <div className="Top">
             <h1 className="Title">Math Magicians</h1>
             <nav className="Nav">
-              <Link className="a" to="/">Home</Link>
+              <Link className="list" to="/">Home</Link>
               <hr />
-              <Link className="a" to="/Calculator">Calculator</Link>
+              <Link className="list" to="/Calculator">Calculator</Link>
               <hr />
-              <Link className="a" to="/Quote">Qoute</Link>
+              <Link className="list" to="/Quote">Qoute</Link>
             </nav>
           </div>
           <section className="section">
