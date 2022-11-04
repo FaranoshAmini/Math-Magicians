@@ -1,18 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+}
+
 body {
   width: 100%;
   min-height: 100vh;
+  overflow-y: hidden;
+  background: #c0c0c0;
+  font-family: 'poppins', serif;
+}
+
+.App {
   display: flex;
   flex-direction: column;
+  height: auto;
+}
+
+.Top {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid #fff;
+  box-shadow: rgba(0, 0, 0, 0.19) 0 1px 2px, rgba(0, 0, 0, 0.23) 0 2px 2px;
+}
+
+.Title {
+  width: 40%;
+  height: 8vh;
+  color: #fff;
+  font-size: 3vw;
+  display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.Nav {
+  width: 40%;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+.Nav .list {
+  text-align: center;
+  width: 50%;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 4px;
+  color: #fff;
+  font-weight: 500;
+  font-size: large;
+  transition: all 0.2s ease-in-out;
+}
+
+.Nav .list:hover {
+  color: #fff;
+  border: 1px solid #c0c0c0;
+}
+
+.Nav .list:focus {
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.Nav .list:active {
+  color: #fff;
+  background: #fdfcfb52;
+}
+
+hr {
+  color: #fff;
+  height: 3vh;
+  width: 1px;
+}
+
+.section {
+  width: 100vw;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.section .quote {
+  text-align: center;
+  line-height: 32px;
+  width: 81vw;
+  font-size: 3.2vh;
 }
 
 form {
   display: flex;
   flex-direction: column;
   height: auto;
-  width: 30vw;
-  box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
+  width: 35vw;
+  border-radius: 25px;
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  box-shadow: rgba(0, 0, 0, 0.19) 0 10px 20px, rgba(0, 0, 0, 0.23) 0 6px 6px;
 }
 
 .calc-btn {
@@ -22,14 +114,18 @@ form {
 }
 
 input {
-  height: 7vh;
+  background: none;
+  height: 9vh;
   border: none;
   padding: 8px;
+  font-size: large;
   cursor: pointer;
 }
 
 input:hover {
   filter: brightness(90%);
+  border-radius: 20px;
+  background-color: #d3d3d3;
 }
 
 .zero {
@@ -38,15 +134,51 @@ input:hover {
 
 .text {
   height: 7vh;
-  background-color: #858694;
-  color: #fff;
-  font-size: large;
+  color: rgb(44, 7, 7);
+  font-size: x-large;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding-right: 6px;
+  padding: 14px;
+  border-bottom: 1px solid black;
 }
 
 .sign {
-  background-color: #f5913e;
+  color: white;
+  font-size: large;
+  font-weight: 800;
+  background-color: #a9a9a9;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 80vw;
+  border-radius: 25px;
+  text-align: center;
+  font-size: x-large;
+  line-height: 38px;
+}
+
+h2 {
+  color: black;
+  align-self: center;
+  width: 40vw;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(135deg, #d3d3d3 0%, #d9d6d4 100%);
+  box-shadow: rgba(0, 0, 0, 0.11) 0 10px 20px, rgba(0, 0, 0, 0.103) 0 6px 6px;
+  font-size: xx-large;
+  font-weight: 800;
+  margin-bottom: 8vh;
+  border-radius: 24px;
 }
