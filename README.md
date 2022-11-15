@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-For the live demo click [here](https://6366b2da3ec680290f9c9e74--silly-monstera-5259f2.netlify.app/)
+For the live demo click [here](faranosh-math-magicians.netlify.app)
 
 ## Author
 
