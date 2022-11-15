@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-For the live demo click [here](faranosh-math-magicians.netlify.app)
+For the live demo click [here](https://faranosh-math-magicians.netlify.app/)
 
 ## Author
 
